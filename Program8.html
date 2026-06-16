@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Largest Number</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        let a = [1,4,7,8,5,9,6,3,2,0];
+
+        let res = a.sort((a,b) => b - a);
+
+        document.getElementById("root").innerText = "Second Largest Number Is = " + res[1];
+
+
+    </script>
+</body>
+</html>

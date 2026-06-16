@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Largest Number</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        let a = [1,22,11,45,74,10,6,9,85,4];
+        let max = a[0]
+
+        for(let i=0;i<a.length;i++){
+            if(a[i] > max){
+                max = a[i];
+            }
+        }
+
+        document.getElementById("root").innerText = "Maximum Number Is = " + max;
+    </script>
+</body>
+</html>

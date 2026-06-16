@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Smallest Number</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        let a = [4,5,1,2,3,6,7,8,9];
+
+        let res = a.sort((a,b) => a - b);
+
+        document.getElementById("root").innerText = "Second Smallest Number = " + res[1];
+    </script>
+</body>
+</html>
