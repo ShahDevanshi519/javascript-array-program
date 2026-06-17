@@ -37,6 +37,38 @@ Rotates array elements to the left by K positions.
 ### 11. Right Rotate Array by K Positions
 Rotates array elements to the right by K positions.
 
+### 12. Flatten Array
+Flatten array is concept in javascript that flat the multi-nested array into the single dimensional array.
+
+for example:--
+
+let arr = [1,2,[3,4],[5,6]];
+
+let ans = arr.flat();
+
+console.log(ans);
+
+## output:1,2,3,4,5,6
+
+Why we use flatten array?
+
+Sometimes data come from the api or complex structure in nested form.
+
+let student = {
+    ["A","B"],
+    ["C","D"],
+    ["E","F"]
+};
+
+## To work with this all student easilt we flat the array.
+
+let flattenans = student.flat();
+
+console.log(flattenans);
+
+
+
+
 
 ## Technologies Used
 
